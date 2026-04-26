@@ -2,7 +2,7 @@ using System.Collections;
 using UnityEngine;
 
 // ═══════════════════════════════════════════════════════════════════════════════
-// SynthAmbient v8.2 — Fix de compilación (Stop) y Armonización
+// SynthAmbient
 // ═══════════════════════════════════════════════════════════════════════════════
 
 [RequireComponent(typeof(AudioSource))]
@@ -101,9 +101,7 @@ public class SynthAmbient : MonoBehaviour
         _running = false;
         _droneEnvTgt = 0f;
         StopAllCoroutines();
-        
-        // CORRECCIÓN: Si tu SynthSFX no tiene Stop(), usamos ReleaseAll() 
-        // o simplemente lo ignoramos ya que al detener las corrutinas no se dispararán más.
+
         if(arpPool != null) {
             foreach(var sfx in arpPool) {
                 if(sfx != null) {
@@ -189,7 +187,7 @@ public class SynthAmbient : MonoBehaviour
             }
 
             _droneEnv += (_droneEnvTgt - _droneEnv) * envAlpha;
-            float gain = (1f - lfo1Depth) + lfo1Depth * (0.5f + 0.5f * Mathf.Sin(_lfo1Phase));
+            float gain = 1f - lfo1Depth + lfo1Depth * (0.5f + 0.5f * Mathf.Sin(_lfo1Phase));
             float finalSample = (data[i] + (droneSample * _droneEnv * droneVolume)) * gain * masterVolume;
 
             data[i] = finalSample;

@@ -801,3 +801,113 @@ System memory in use after: 83.1 MB.
 Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2390.
 Total: 3.096200 ms (FindLiveObjects: 0.331400 ms CreateObjectMapping: 0.139800 ms MarkObjects: 2.579300 ms  DeleteObjects: 0.043600 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003561 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.764 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.87 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1868 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.0 MB.
+System memory in use after: 83.1 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2392.
+Total: 2.602300 ms (FindLiveObjects: 0.414900 ms CreateObjectMapping: 0.176700 ms MarkObjects: 1.949800 ms  DeleteObjects: 0.058700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 34369.176575 seconds.
+  path: Assets/Scripts/View/Control/NewAudio/SynthAmbient.cs
+  artifactKey: Guid(67b44b01ebe76144dad19fb4dfbf09ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/View/Control/NewAudio/SynthAmbient.cs using Guid(67b44b01ebe76144dad19fb4dfbf09ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dc263d0887f9b951bb49d28e255f31a') in 0.012647 seconds
+  Import took 0.376965 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003379 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.678 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.89 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1868 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.0 MB.
+System memory in use after: 83.1 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2394.
+Total: 3.179900 ms (FindLiveObjects: 0.361200 ms CreateObjectMapping: 0.109500 ms MarkObjects: 2.672000 ms  DeleteObjects: 0.032600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 149.653533 seconds.
+  path: Assets/Scripts/View/Control/NewAudio/SynthAmbient.cs
+  artifactKey: Guid(67b44b01ebe76144dad19fb4dfbf09ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/View/Control/NewAudio/SynthAmbient.cs using Guid(67b44b01ebe76144dad19fb4dfbf09ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37b7d0f5e50bc53a22776396365321e4') in 0.006563 seconds
+  Import took 0.010555 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003551 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.726 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.94 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1868 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.0 MB.
+System memory in use after: 83.2 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2396.
+Total: 3.925700 ms (FindLiveObjects: 0.450700 ms CreateObjectMapping: 0.224400 ms MarkObjects: 3.190800 ms  DeleteObjects: 0.056500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2013.842247 seconds.
+  path: Assets/Scripts/View/Control/NewAudio/SynthSFX.cs
+  artifactKey: Guid(62a283393c4f00f41b7e0b7ce1251d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/View/Control/NewAudio/SynthSFX.cs using Guid(62a283393c4f00f41b7e0b7ce1251d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aed630b6745dc69ee51c06860b481eff') in 0.010157 seconds
+  Import took 0.014507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.051758 seconds.
+  path: Assets/Scripts/View/Control/NewAudio/Audiobridge.cs
+  artifactKey: Guid(38f168773fafebd41afc675508524e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/View/Control/NewAudio/Audiobridge.cs using Guid(38f168773fafebd41afc675508524e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f030575b33c70575503ed79de8fd89a2') in 0.007346 seconds
+  Import took 0.011390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 95.161720 seconds.
+  path: Assets/Scripts/View/Control/GameAudio.cs
+  artifactKey: Guid(b232d9a1b0996124fb60ca0938238250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/View/Control/GameAudio.cs using Guid(b232d9a1b0996124fb60ca0938238250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fba16ec14a958c4bbd11d91784f1399') in 0.008446 seconds
+  Import took 0.011869 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
