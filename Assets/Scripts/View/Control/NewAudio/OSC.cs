@@ -43,7 +43,6 @@ public class OSC : MonoBehaviour
 
     void Start()
     {
-        AudioSettings.Reset(AudioSettings.GetConfiguration());
         Debug.Log("Sample rate: " + AudioSettings.outputSampleRate);
 
         FM = AudioSettings.outputSampleRate;
