@@ -98,18 +98,26 @@ public class SynthAmbient : MonoBehaviour
 
     public void StopAmbient()
     {
-        _running = false;
+        _running     = false;
         _droneEnvTgt = 0f;
         StopAllCoroutines();
+        ForceStopArp();
+    }
 
-        if(arpPool != null) {
-            foreach(var sfx in arpPool) {
-                if(sfx != null) {
-                    // Si tienes un método para soltar la nota, úsalo aquí. 
-                    // Si no, basta con dejar que el sonido muera por su propio release.
-                }
-            }
-        }
+    void OnDisable()
+    {
+        _running     = false;
+        _droneEnvTgt = 0f;
+        StopAllCoroutines();
+        ForceStopArp();
+    }
+
+    private void ForceStopArp()
+    {
+        if (arpPool == null) return;
+        foreach (var sfx in arpPool)
+            if (sfx != null)
+                sfx.isActive = false;
     }
 
     private IEnumerator ProgressionLoop()

@@ -311,10 +311,8 @@ namespace View.Control
 
 		public void RestartLevel()
 		{
-			if (_scrollEnabled) {
-				return;
-			}
-			
+			if (_scrollEnabled) return;
+			_gameAudio.Play(GameClip.MenuSelect, volume: 0.3f);
 			_levels[_selectedLevel].GetComponent<PuzzleState>().RestartLevel();
 		}
 
@@ -541,21 +539,25 @@ namespace View.Control
 		
 		public void ToggleSettings()
 		{
+			_gameAudio.Play(GameClip.MenuSelect, volume: 0.3f);
 			_navigation.ToggleSettings();
 		}
 
 		public void ToggleMusic()
 		{
+			_gameAudio.Play(GameClip.MenuSelect, volume: 0.3f);
 			_gameAudio.MusicEnabled = !_gameAudio.MusicEnabled;
 		}
 
 		public void ToggleSfx()
 		{
+			_gameAudio.Play(GameClip.MenuSelect, volume: 0.3f);
 			_gameAudio.SfxEnabled = !_gameAudio.SfxEnabled;
 		}
 
 		public void ToggleFreeze()
 		{
+			_gameAudio.Play(GameClip.MenuSelect, volume: 0.3f);
 			_scrollEnabled = !_scrollEnabled;
 		}
 	}

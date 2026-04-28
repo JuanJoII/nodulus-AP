@@ -3,11 +3,6 @@ using UnityEngine;
 // ═══════════════════════════════════════════════════════════════════════════════
 // SynthSFX — Sintetizador one-shot corregido.
 //
-// CAUSA RAÍZ DEL PROBLEMA ANTERIOR:
-// OnAudioFilterRead solo corre si el AudioSource está en Play() continuo.
-// El clip de silencio en loop es el mecanismo correcto — pero el AudioSource
-// debe estar jugando ANTES de que llegue cualquier llamada a Play().
-//
 // Esta versión usa un doble buffer de parámetros para comunicación segura
 // entre el hilo principal (Play) y el hilo de audio (OnAudioFilterRead).
 // ═══════════════════════════════════════════════════════════════════════════════
